@@ -1,0 +1,40 @@
+﻿<macromedia-extension
+	 name="Resizer"
+	 version="1.2.0"
+	 type="Command"
+	 mxiversion="2.0.0"
+	 xmanversion="2.0.0">
+
+	<author name="K.Kawashima" />
+
+	<products>
+		<product name="Fireworks" version="6" primary="true" />
+	</products>
+
+	<description>
+	<![CDATA[
+	カーソルキーでオブジェクトのリサイズが可能になります。また、縦横比固定のままサイズを数値指定することも可能になります。
+	]]>
+	</description>
+
+	<ui-access>
+	<![CDATA[
+	↑：サイズを+1pxする。　↓：サイズを-1pxする。　Shift＋カーソルキー：変化幅が10pxずつになる。
+	]]>
+	</ui-access>
+
+	<license-agreement>
+	<![CDATA[
+	
+	]]>
+	</license-agreement>
+
+	<files>
+		<file source="Resizer.swf" destination="$fireworks/configuration/command panels/" />
+		<file source="Resizer/fixaspect_off.png" destination="$fireworks/configuration/command panels/Resizer/" />
+		<file source="Resizer/fixaspect_on.png" destination="$fireworks/configuration/command panels/Resizer/" />
+	</files>
+
+	<configuration-changes>
+	</configuration-changes>
+</macromedia-extension>
